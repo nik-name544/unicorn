@@ -342,7 +342,7 @@
 
         .slick-next {
             position: absolute;
-            top: 22%;
+            top: 28%;
             background-color: transparent;
             right: -82px;
             width: 24px;
@@ -378,6 +378,144 @@
 }
 
 // clients end
+// portfolio start
+
+.portfolio {
+    background-color: #ffffff;
+
+    &__head {
+        text-align: center;
+        padding: 100px 200px 45px;
+    }
+
+    &__head-title {
+        @include bold;
+        color: $text;
+        font-size: 27px;
+        padding-bottom: 35px;
+    }
+
+    &__head-text {
+        @include reg;
+        font-size: 16px;
+        line-height: 33px;
+        color: $text;
+        padding-bottom: 48px;
+    }
+
+    &__head-line {
+        width: 75px;
+        height: 7px;
+        background-color: $red;
+        margin: 0 auto 47px;
+    }
+
+    &__head-tags-wrapper {
+        margin: 0 auto;
+    }
+
+    &__head-tags {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    &__head-tag {
+        padding: 0 13px 5px;
+        @include reg;
+        font-size: 16px;
+        color: $text;
+    }
+
+    &__inner {
+        width: 100%;
+
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+
+            li,
+            button {
+                background-color: #cccccc;
+                width: 11px;
+                height: 11px;
+                border-radius: 50%;
+                border: none;
+                content: "";
+                font-size: 0;
+            }
+
+            button {
+                margin-top: 0px;
+                background-color: transparent;
+            }
+
+            li {
+                margin: 65px 4px 80px;
+
+                .slick-active {
+                    background-color: $red;
+                    z-index: 5;
+
+                    button {
+                        background-color: $red;
+                    }
+                }
+            }
+
+            li.slick-active {
+                background-color: $red;
+            }
+        }
+
+        .slick-slide.slick-active {
+            max-width: 435px !important;
+            width: 100%;
+            max-height: 355px !important;
+            height: 100%;
+        }
+
+        .slick-slide {
+            max-width: 435px !important;
+            width: 100%;
+            max-height: 355px !important;
+            height: 100%;
+            outline: transparent;
+        }
+    }
+}
+
+// portfolio end
+// quote start
+
+.quote {
+    background-color: $text;
+    padding: 80px  0px 65px;
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 15px;
+    }
+
+    &__text {
+        @include reg;
+        font-size: 20px;
+        line-height: 38px;
+        text-align: center;
+        color: $white-text;
+        padding: 0 170px 35px;
+    }
+
+    &__author {
+        @include reg;
+        font-size: 20px;
+        text-align: center;
+        color: $white-text;
+    }
+}
+
+// quote end
 
 //-----------------------------------------------------------------------------------------------------------
 //

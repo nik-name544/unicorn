@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="37" height="32.97"><path fill="#212121" d="M18.5 3.29a14.607 14.607 0 11-15.072 14.6A14.844 14.844 0 0118.5 3.29zm0 1.33A13.282 13.282 0 114.8 17.89 13.491 13.491 0 0118.5 4.62zm0 3.98h1.37v11.95H18.5V8.6zm-6.851 11.95v-1.33H18.5v1.33h-6.851zm16.643 8.43l.969-.94 4.11 3.98-.969.94zm-19.868-.94l.969.94-4.11 3.98-.969-.94zm26.5-26.05a6.252 6.252 0 01.281 9c-.008 0-9.536-9.27-9.531-9.27a6.679 6.679 0 019.248.27zm-.787.76a5.115 5.115 0 01.319 7.51c.161.14-8.193-7.96-8.041-7.82a5.53 5.53 0 017.72.31zm-7.949-1.53l9.531 9.27-.795.77-9.53-9.27zM2.08 1.99a6.252 6.252 0 00-.281 9c.009 0 9.536-9.27 9.531-9.27a6.679 6.679 0 00-9.252.27zm.787.76a5.115 5.115 0 00-.319 7.51c-.161.14 8.193-7.96 8.041-7.82a5.53 5.53 0 00-7.724.31zm7.949-1.53l-9.53 9.27.794.77 9.53-9.27z" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="32.97" viewBox="0 0 37 32.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #212121;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="222" y="1571.03" width="37" height="32.97" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="222" y="1571.03" width="37" height="32.97" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzciIGhlaWdodD0iMzIuOTciIHZpZXdCb3g9IjAgMCAzNyAzMi45NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxOC41IiB5MT0iMzIuOTciIHgyPSIxOC41IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2Y4NWQzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNjM1NzEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjM3IiBoZWlnaHQ9IjMyLjk3Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#212121"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <path fill="#212121" id="clock" class="cls-1" d="M240.5,1574.32a14.607,14.607,0,1,1-15.072,14.6A14.844,14.844,0,0,1,240.5,1574.32Zm0,1.33a13.282,13.282,0,1,1-13.7,13.27A13.491,13.491,0,0,1,240.5,1575.65Zm0,3.98h1.37v11.95H240.5v-11.95Zm-6.851,11.95v-1.33H240.5v1.33h-6.851Zm16.643,8.43,0.969-.94,4.11,3.98-0.969.94Zm-19.868-.94,0.969,0.94-4.11,3.98-0.969-.94Zm26.5-26.05a6.252,6.252,0,0,1,.281,9c-0.008,0-9.536-9.27-9.531-9.27A6.679,6.679,0,0,1,256.922,1573.02Zm-0.787.76a5.115,5.115,0,0,1,.319,7.51c0.161,0.14-8.193-7.96-8.041-7.82A5.53,5.53,0,0,1,256.135,1573.78Zm-7.949-1.53,9.531,9.27-0.795.77-9.53-9.27Zm-24.108.77a6.252,6.252,0,0,0-.281,9c0.009,0,9.536-9.27,9.531-9.27A6.679,6.679,0,0,0,224.078,1573.02Zm0.787,0.76a5.115,5.115,0,0,0-.319,7.51c-0.161.14,8.193-7.96,8.041-7.82A5.53,5.53,0,0,0,224.865,1573.78Zm7.949-1.53-9.53,9.27,0.794,0.77,9.53-9.27Z" transform="translate(-222 -1571.03)"/>
+</svg>
