@@ -805,6 +805,177 @@
 }
 
 // tweets end
+// footer start
+
+.footer {
+    background-color: $text;
+
+    &__inner {
+        display: flex;
+        justify-content: start;
+        border-bottom: 1px solid #474747;
+        padding-top: 75px;
+    }
+
+    &__item {
+        padding-right: 130px;
+
+        &:first-child {
+            padding-right: 108px;
+        }
+    }
+
+    &__logo {
+        @include bold;
+        font-size: 22px;
+        color: $white-text;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        @include reg;
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 32px;
+        color: #999999;
+        max-width: 435px;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 435px;
+        width: 100%;
+
+        button {
+            display: flex;
+            width: 100%;
+            margin-top: 85px;
+            background-color: transparent;
+            @include reg;
+            color: #999999;
+            font-size: 14px;
+            border: none;
+            padding-bottom: 15px;
+            position: relative;
+            cursor: pointer;
+
+            &::before {
+                position: absolute;
+                content: "";
+                background-image: url(../images/icons/caret-right.svg);
+                background-repeat: no-repeat;
+                width: 15px;
+                height: 15px;
+                fill: #999;
+                left: 45px;
+                top: 2px;
+            }
+        }
+    }
+
+    &__input {
+        display: flex;
+        justify-content: space-between;
+        max-width: 200px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #474747;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        color: #ffffff;
+        @include reg;
+        font-size: 14px;
+
+        &::placeholder {
+            text-transform: uppercase;
+            @include reg;
+            font-size: 14px;
+            color: #999999;
+        }
+    }
+
+    &__message {
+        display: block;
+        max-width: 435px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #474747;
+        color: #ffffff;
+
+        &::placeholder {
+            text-transform: uppercase;
+            @include reg;
+            font-size: 14px;
+            color: #999999;
+        }
+    }
+
+    &__head {
+        @include semi;
+        font-size: 15px;
+        color: #dddddd;
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        li {
+            @include reg;
+            font-size: 14px;
+            line-height: 24px;
+            padding-bottom: 3px;
+
+            a {
+                color: #999999;
+                transition: linear 0.5s;
+
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    &__copy {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    &__copy-item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        @include reg;
+        font-size: 14px;
+        color: #aaaaaa;
+        line-height: 24px;
+
+        ul {
+            flex-direction: row;
+            display: flex;
+
+            li {
+                padding-left: 30px;
+
+                a {
+                    color: #aaaaaa;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+// footer end
 //-----------------------------------------------------------------------------------------------------------
 //
 //                                                    END CODE
