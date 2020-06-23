@@ -490,7 +490,7 @@
 
 .quote {
     background-color: $text;
-    padding: 80px  0px 65px;
+    padding: 80px 0px 65px;
 
     &__icon {
         display: flex;
@@ -516,7 +516,61 @@
 }
 
 // quote end
+// team start
 
+.team {
+    background-color: #ffffff;
+
+    &__head {
+        padding: 100px 200px 95px;
+        text-align: center;
+    }
+
+    &__title {
+        @include bold;
+        color: $text;
+        font-size: 27px;
+        padding-bottom: 45px;
+    }
+
+    &__text {
+        @include reg;
+        color: $text;
+        font-size: 16px;
+        line-height: 33px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 130px;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__img {
+        margin-bottom: 50px;
+        height: 112px;
+    }
+
+    &__name {
+        @include bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $text;
+        padding-bottom: 15px;
+    }
+
+    &__work {
+        font-size: 15px;
+        @include reg;
+        color: $text;
+    }
+}
+
+// team end
 //-----------------------------------------------------------------------------------------------------------
 //
 //                                                    END CODE
