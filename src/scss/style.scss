@@ -688,6 +688,8 @@
     &__item-img {
         display: flex;
         justify-content: flex-end;
+        // max-width: 575px;
+        width: 565px;
     }
 }
 
